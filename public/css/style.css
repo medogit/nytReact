@@ -1,0 +1,38 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.jumbotron {
+  flex: 0 0 100%; /* Let it fill the entire space horizontally */
+  height: 200px;
+}
+
+.footer {
+  flex: 1 0 100%; /* make it wrap to its own line */
+  order: 1; /* move to the end */
+  margin-bottom: 0;
+  height: 30px;
+}
+
+.row {
+  flex: 1 0 100%; /* make it wrap to its own line */
+}
+
+.gold {
+  color: gold;
+}
+
+.quote {
+  padding-top: 20px;
+}
